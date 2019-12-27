@@ -1212,8 +1212,6 @@ public void processCommands(String dataLine   )
         Box b = Box.createVerticalBox();
         b.add(Box.createGlue());
         b.add(new JLabel("GUI for JustTE4J Java Web Template Engine"));
-        b.add(new JLabel("http://justte4j.sourceforge.net"));
-        b.add(new JLabel("https://code.google.com/p/justa-te-4j-gui-manager/"));
         b.add(Box.createGlue());
         getContentPane().add(b, "Center");
 
